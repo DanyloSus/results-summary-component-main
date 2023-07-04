@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
 
 body{
@@ -9,17 +10,21 @@ body{
 }
 
 main {
-  width: 51%;
-  padding-top: 48%;
+  max-width: 51%;
+  min-width: 51%;
+  max-height: 48%;
+  min-height: 48%;
   background-color: #ffffff;
-  box-shadow: 0 0 20px rgb(219, 219, 219);
+  box-shadow: 0px 10px 20px rgb(236, 237, 255);
   position: absolute;
   top: 26%;
   left: 24.5%;
   border-radius: 20px;
+  border: 0.5px solid rgb(246, 246, 255);
+  overflow: hidden;
 }
 
-main:before {
+main::before {
   content: "";
   display: block;
 }

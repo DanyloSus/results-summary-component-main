@@ -1,0 +1,41 @@
+aside {
+    background: linear-gradient(#6643ff, #3327eb);
+    max-width: 50%;
+    min-width: 50%;
+    max-height: 100%;
+    min-height: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 45px 30px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+aside::before {
+    content: "";
+    display: block;
+}
+
+aside h2 {
+    color: #c5caea;
+    font-size: 17px;
+}
+
+.circle {
+    background: linear-gradient(#4821cc, rgba(0,0,0,0));
+    border-radius: 100%;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    padding-top: 25px;
+    margin: 40px auto;
+}
+
+.circle h1 {
+    font-size: 50px;
+}
+
+h2:nth-child(4) {
+    font-size: 13px;
+    font-weight: lighter;
+}
