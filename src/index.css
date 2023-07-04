@@ -3,3 +3,23 @@
   padding: 0;
   font-family: "Inter", sans-serif;
 }
+
+body{
+  background-color: #ffffff;
+}
+
+main {
+  width: 51%;
+  padding-top: 48%;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgb(219, 219, 219);
+  position: absolute;
+  top: 26%;
+  left: 24.5%;
+  border-radius: 20px;
+}
+
+main:before {
+  content: "";
+  display: block;
+}

@@ -2,6 +2,8 @@ import React from "react";
 
 export default function App() {
   return(
-    <h1>Sus</h1>
+    <main>
+      
+    </main>
   );
 }
