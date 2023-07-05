@@ -1,9 +1,7 @@
 aside {
     background: linear-gradient(#6643ff, #3327eb);
-    max-width: 50%;
-    min-width: 50%;
-    max-height: 100%;
-    min-height: 100%;
+    width: 50%;
+    height: 100%;
     color: #ffffff;
     text-align: center;
     padding: 45px 30px;
@@ -24,18 +22,22 @@ aside h2 {
 .circle {
     background: linear-gradient(#4821cc, rgba(0,0,0,0));
     border-radius: 100%;
-    width: 125px;
-    height: 125px;
-    text-align: center;
-    padding-top: 25px;
+    width: 10vw;
+    height: 10vw;
     margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .circle h1 {
     font-size: 50px;
+    margin-bottom: -10px;
 }
 
 h2:nth-child(4) {
-    font-size: 13px;
-    font-weight: lighter;
+    margin-top: 10px;
+    font-size: 1.371vw;
+    font-weight: 300;
 }

@@ -1,0 +1,54 @@
+section {
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    color: #1e1f34;
+    padding: 3vw;
+}
+
+section h1 {
+    margin-bottom: 35px;
+}
+
+.statistic {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 7px 10px;
+}
+
+.statistic div {
+    display: flex;
+    align-items: center;
+}
+
+.statistic img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.statistic h2 {
+    font-size: 20px;
+}
+
+.statistic p {
+    font-size: 17px;
+}
+
+section input {
+    width: 100%;
+    background-color: #303b59;
+    border: none;
+    padding: 10px 0;
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: 17px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+section input:hover {
+    background: linear-gradient(#6846ff, #322bea);
+}
