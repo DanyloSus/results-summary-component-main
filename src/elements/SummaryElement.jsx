@@ -12,7 +12,7 @@ export default function SummaryElement(props) {
                     style={{color: "rgb("+props.rgb+")"}}
                 >{props.text}</h2>
             </div>
-            <p>{props.results} / 100</p>
+            <p><strong>{props.results}</strong> / 100</p>
         </div>
     );
 }

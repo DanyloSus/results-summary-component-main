@@ -3,25 +3,29 @@ section {
     height: 100%;
     background-color: #ffffff;
     color: #1e1f34;
-    padding: 3vw;
+    padding: 2vw;
+    overflow-y: visible;
 }
 
 section h1 {
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 
 .statistic {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 10px;
     padding: 7px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .statistic div {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .statistic img {
@@ -35,6 +39,11 @@ section h1 {
 
 .statistic p {
     font-size: 17px;
+    color: #999798;
+}
+
+strong {
+    color: initial;
 }
 
 section input {
@@ -45,10 +54,42 @@ section input {
     color: #ffffff;
     border-radius: 50px;
     font-size: 17px;
-    margin-top: 20px;
+    margin-top: 1vh;
     cursor: pointer;
 }
 
 section input:hover {
     background: linear-gradient(#6846ff, #322bea);
+}
+
+@media only screen and (max-width: 950px) {
+    section {
+        padding: 0 20px 0 20px;
+        width: 100%;
+    }
+
+    .statistic {
+        width: 100%;
+        justify-content: space-between;
+        padding: 15px 20px;
+        margin-bottom: 10px;
+    }
+
+    section input {
+        margin: 10px 0 10px;
+    }
+}
+  
+@media only screen and (max-width: 500px) {
+    section {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .statistic {
+        width: 100%;
+        justify-content: space-between;
+        padding: 2vh 20px;
+        margin-bottom: 20px;
+    }
 }
